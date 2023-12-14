@@ -1,0 +1,8 @@
+        var newSettings = currentState
+        
+        switch action {
+        case .changeTrim(let videoTrim):
+            newSettings.trim = videoTrim
+            
+        case .changeSpeed(let speed):
+            newSettings.speed = Float(speed
